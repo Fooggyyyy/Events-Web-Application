@@ -9,11 +9,12 @@
 - **Обязательно** ставим галочку на чекбокс "Доверять сертификату сервера" !!!
 ### 4. В Веб-приложение переходим на путь /swagger
 ### 5. Регестрируемся (/api/Auth/register) , если заходим(/api/Auth/login) или хотим воспользоваться данными админа, с нового пк надо заполнить таблицу данными:
---В SSMS нажимаем на БД "EventsAppDb" ПКМ "Создать запрос".
---Пишем следующее:
-```sql INSERT INTO Users (Name, Surname, BirthdayDate, Email, IsAdmin) VALUES ('Maria', 'Sidorova', '1995-06-15', 'maria.sidorova@example.com', 1), ('Ivan', 'Petrov', '1995-06-15', 'ivan.petrov@example.com', 0);
+- В SSMS нажимаем на БД "EventsAppDb" ПКМ "Создать запрос".
+- Пишем следующее:
+```sql
+INSERT INTO Users (Name, Surname, BirthdayDate, Email, IsAdmin) VALUES ('Maria', 'Sidorova', '1995-06-15', 'maria.sidorova@example.com', 1), ('Ivan', 'Petrov', '1995-06-15', 'ivan.petrov@example.com', 0);
 ```
---Нажимаем F5.
+- Нажимаем F5.
 
 ### User: 
 - **Name:** Ivan
