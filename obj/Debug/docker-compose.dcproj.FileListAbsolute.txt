@@ -1,0 +1,45 @@
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Events Web-Application.deps.json
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Events Web-Application.runtimeconfig.json
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\appsettings.Development.json
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\src\WebAPI\appsettings.json
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Events Web-Application.staticwebassets.endpoints.json
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Events Web-Application.exe
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Events Web-Application.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\MediatR.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\MediatR.Contracts.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\FluentValidation.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\FluentValidation.AspNetCore.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\AutoMapper.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\System.Text.Json.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\bin\Debug\Events Web-Application.pdb
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\obj\Debug\docker-c.35A3FFBA.Up2Date

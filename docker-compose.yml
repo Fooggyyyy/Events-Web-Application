@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  sql_server:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=YourStrong@Passw0rd
+      - MSSQL_PID=Express
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+
+  eventsweb-application:
+    image: ${DOCKER_REGISTRY-}eventswebapplication
+    build:
+      context: .
+      dockerfile: Events Web-Application/Dockerfile
+    depends_on:
+      - sql_server
+    ports:
+      - "5000:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=sql_server;Database=EventsAppDb;User Id=sa;Password=YourStrong@Passw0rd;TrustServerCertificate=True;
+
+volumes:
+  sql_data:

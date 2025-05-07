@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Events Web-Application.props" />
+</Project>
