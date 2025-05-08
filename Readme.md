@@ -7,15 +7,26 @@
 - **Имя для входа:** sa
 - **Пароль:** YourStrong@Passw0rd
 - **Обязательно** ставим галочку на чекбокс "Доверять сертификату сервера" !!!
-### 4. В Веб-приложение переходим на путь /swagger
-### 5. Регестрируемся (/api/Auth/register) , если заходим(/api/Auth/login) или хотим воспользоваться данными админа, с нового пк надо заполнить таблицу данными:
-- В SSMS нажимаем на БД "EventsAppDb" ПКМ "Создать запрос".
-- Пишем следующее:
+### 4. Восстановаление Базы Данных
+- В папке **Events-Web-Application/DB** лежат исходники базы данных
+- В SSMS ПКМ по БД и нажимаем "Создать запрос".
+- Пишем:
 ```sql
-INSERT INTO Users (Name, Surname, BirthdayDate, Email, IsAdmin) VALUES ('Maria', 'Sidorova', '1995-06-15', 'maria.sidorova@example.com', 1), ('Ivan', 'Petrov', '1995-06-15', 'ivan.petrov@example.com', 0);
+RESTORE FILELISTONLY 
+FROM DISK = '...\Events Web-Application\DB\Events_Web_Application.bak' --тут полный путь до .bak файла
 ```
-- Нажимаем F5.
-
+- Запрос выдаст таблицу с 2 значениями .mdf и .idf файлами
+- Опираясь на полученые таблицы пишем второй запрос:
+```sql
+RESTORE DATABASE EventsAppDb
+FROM DISK = 'C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\Events Web-Application\DB\Events_Web_Application.bak'
+WITH MOVE 'Сюда пишем LoqicalName первой строки' TO 'Сюда пишем PhysicalName первой строки',
+     MOVE 'Сюда пишем LoqicalName второй строки' TO 'Сюда пишем PhysicalName второй строки',
+     REPLACE;
+```
+- Готово
+### 5. В Веб-приложение переходим на путь /swagger
+### 6. Регестрируемся (/api/Auth/register) , если заходим(/api/Auth/login):
 ### User: 
 - **Name:** Ivan
 - **Email:** ivan.petrov@example.com
@@ -24,9 +35,9 @@ INSERT INTO Users (Name, Surname, BirthdayDate, Email, IsAdmin) VALUES ('Maria',
 - **Name:** Maria 
 - **Email:** maria.sidorova@example.com
 
-### 6. В ответе будет длинный токен к полю "accessToken", копируем его.
-### 7. Справа выше находится кнопка "Authorize" нажимаем и вставляем туда ранее скопируемый токен и нажимаем там кнопку "Authorize".
-### 8. Приложение готово к использованию, ниже объяснены все конечные пути и для каких пользователей он доступо.
+### 7. В ответе будет длинный токен к полю "accessToken", копируем его.
+### 8. Справа выше находится кнопка "Authorize" нажимаем и вставляем туда ранее скопируемый токен и нажимаем там кнопку "Authorize".
+### 9. Приложение готово к использованию, ниже объяснены все конечные пути и для каких пользователей он доступо.
 
 ## Auth
 - **POST /api/Auth/register** - Регистрация User-а. Доступна всем пользователям. 
