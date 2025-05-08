@@ -118,6 +118,7 @@ namespace Events_Web_Application.src.WebAPI.Controllers
         }
 
         [HttpPost("refresh")]
+        [Authorize(Policy = "AtLeastUser")]
         public async Task<ActionResult<AuthTokens>> Refresh([FromBody] RefreshRequest request)
         {
             var principal = _jwtService.GetPrincipalFromExpiredToken(request.AccessToken);

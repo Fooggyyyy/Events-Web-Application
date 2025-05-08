@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\events web-application\\events web-application\\src\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|solutionrelative:events web-application\\src\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\events web-application\\events web-application\\src\\application\\events\\commands\\command\\addphotoeventcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|solutionrelative:events web-application\\src\\application\\events\\commands\\command\\addphotoeventcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\events web-application\\events web-application\\src\\webapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|solutionrelative:events web-application\\src\\webapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\events web-application\\events web-application\\src\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|solutionrelative:events web-application\\src\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0E00558F-2D83-442E-980F-D2F0A9282A08}|docker-compose.dcproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\events web-application\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{0E00558F-2D83-442E-980F-D2F0A9282A08}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -13,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\events web-application\\events web-application\\src\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|solutionrelative:events web-application\\src\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\events web-application\\events web-application\\src\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|solutionrelative:events web-application\\src\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E00558F-2D83-442E-980F-D2F0A9282A08}|docker-compose.dcproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\events web-application\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -90,10 +102,6 @@
       "RelativeMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|solutionrelative:events web-application\\events web-application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\events web-application\\events web-application\\src\\webapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|solutionrelative:events web-application\\src\\webapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\events web-application\\events web-application\\src\\infastructure\\persistence\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|solutionrelative:events web-application\\src\\infastructure\\persistence\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -140,10 +148,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\events web-application\\events web-application\\src\\infastructure\\persistence\\configurations\\changesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|solutionrelative:events web-application\\src\\infastructure\\persistence\\configurations\\changesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\events web-application\\events web-application\\src\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|solutionrelative:events web-application\\src\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\events web-application\\events web-application\\src\\application\\events\\queries\\query\\getchangesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -232,10 +236,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3944ABAC-D521-40E3-8B88-BF623A4C00BC}|Tests\\Tests.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\events web-application\\tests\\tests\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3944ABAC-D521-40E3-8B88-BF623A4C00BC}|Tests\\Tests.csproj|solutionrelative:tests\\tests\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\events web-application\\events web-application\\src\\application\\events\\commands\\command\\addphotoeventcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0D59537-EED7-46AF-90F4-81DB1636B9D4}|Events Web-Application\\Events Web-Application.csproj|solutionrelative:events web-application\\src\\application\\events\\commands\\command\\addphotoeventcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3944ABAC-D521-40E3-8B88-BF623A4C00BC}|Tests\\Tests.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\events web-application\\tests\\tests\\application\\users\\cancelparticipationusercommandhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -389,7 +389,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -417,64 +417,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "package.json",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\package.json",
-              "RelativeDocumentMoniker": "package.json",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\package.json",
-              "RelativeToolTip": "package.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-07T17:16:20.015Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\launchSettings.json",
-              "RelativeDocumentMoniker": "launchSettings.json",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\launchSettings.json",
-              "RelativeToolTip": "launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-07T17:16:18.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": ".dockerignore",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\.dockerignore",
-              "RelativeDocumentMoniker": ".dockerignore",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\.dockerignore",
-              "RelativeToolTip": ".dockerignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-07T17:16:15.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EventRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Infastructure\\Persistence\\Repositories\\EventRepository.cs",
-              "RelativeDocumentMoniker": "Events Web-Application\\src\\Infastructure\\Persistence\\Repositories\\EventRepository.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Infastructure\\Persistence\\Repositories\\EventRepository.cs",
-              "RelativeToolTip": "Events Web-Application\\src\\Infastructure\\Persistence\\Repositories\\EventRepository.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAmwEUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T21:06:00.241Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\docker-compose.yml*",
-              "RelativeToolTip": "docker-compose.yml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABTAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBkAAAB7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-05-07T13:31:45.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T13:31:45.543Z"
             },
             {
               "$type": "Document",
@@ -484,27 +435,25 @@
               "RelativeDocumentMoniker": "Events Web-Application\\src\\WebAPI\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\WebAPI\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Events Web-Application\\src\\WebAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAawGMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAwwHgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:21:47.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T21:21:47.034Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\WebAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\WebAPI\\appsettings.json*",
-              "RelativeToolTip": "Events Web-Application\\src\\WebAPI\\appsettings.json*",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "Events Web-Application\\src\\WebAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-03T13:12:05.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T13:12:05.576Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "package-lock.json",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\package-lock.json",
               "RelativeDocumentMoniker": "package-lock.json",
@@ -516,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Domain\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Domain\\Interfaces\\IUserRepository.cs",
@@ -528,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "CancelParticipationUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Commands\\Command\\CancelParticipationUserCommand.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Commands\\Command\\CancelParticipationUserCommand.cs",
@@ -540,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\Dockerfile",
               "RelativeDocumentMoniker": "Events Web-Application\\Dockerfile",
@@ -552,24 +501,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Infastructure\\Persistence\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Infastructure\\Persistence\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Infastructure\\Persistence\\AppDbContext.cs*",
-              "RelativeToolTip": "Events Web-Application\\src\\Infastructure\\Persistence\\AppDbContext.cs*",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Infastructure\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "Events Web-Application\\src\\Infastructure\\Persistence\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T17:25:44.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T17:25:44.263Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{797f5b3d-853a-4854-a9f2-c488bac2661b}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\WebAPI\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Events Web-Application\\src\\WebAPI\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\WebAPI\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Events Web-Application\\src\\WebAPI\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAYwJcAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:24:06.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddPhotoEventCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Commands\\Command\\AddPhotoEventCommand.cs",
+              "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Commands\\Command\\AddPhotoEventCommand.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Commands\\Command\\AddPhotoEventCommand.cs",
+              "RelativeToolTip": "Events Web-Application\\src\\Application\\Events\\Commands\\Command\\AddPhotoEventCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T14:32:26.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\WebAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Events Web-Application\\src\\WebAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\WebAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Events Web-Application\\src\\WebAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:24:38.896Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Infastructure\\Persistence\\Repositories\\EventRepository.cs",
+              "RelativeDocumentMoniker": "Events Web-Application\\src\\Infastructure\\Persistence\\Repositories\\EventRepository.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Infastructure\\Persistence\\Repositories\\EventRepository.cs",
+              "RelativeToolTip": "Events Web-Application\\src\\Infastructure\\Persistence\\Repositories\\EventRepository.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAmwEUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T21:06:00.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-07T17:16:15.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-07T17:16:18.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-07T17:16:20.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Participation.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Domain\\Entities\\Participation.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Domain\\Entities\\Participation.cs",
@@ -581,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
@@ -593,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Events Web-Application\\appsettings.Development.json",
@@ -605,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "IEventRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Domain\\Interfaces\\IEventRepository.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Domain\\Interfaces\\IEventRepository.cs",
@@ -617,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\WebAPI\\Program.cs",
@@ -629,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Domain\\Entities\\Event.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Domain\\Entities\\Event.cs",
@@ -641,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Changes.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Domain\\Entities\\Changes.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Domain\\Entities\\Changes.cs",
@@ -653,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "AddPhotoEventCommandHandlerTest.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Tests\\Tests\\Application\\Events\\AddPhotoEventCommandHandlerTest.cs",
               "RelativeDocumentMoniker": "Tests\\Tests\\Application\\Events\\AddPhotoEventCommandHandlerTest.cs",
@@ -665,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "AddPhotoEventCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Commands\\Handler\\AddPhotoEventCommandHandler.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Commands\\Handler\\AddPhotoEventCommandHandler.cs",
@@ -677,7 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Events Web-Application.csproj",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\Events Web-Application.csproj",
               "RelativeDocumentMoniker": "Events Web-Application\\Events Web-Application.csproj",
@@ -689,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "EventConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Infastructure\\Persistence\\Configurations\\EventConfiguration.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Infastructure\\Persistence\\Configurations\\EventConfiguration.cs",
@@ -701,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "UpdateEventCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Commands\\Handler\\UpdateEventCommandHandler.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Commands\\Handler\\UpdateEventCommandHandler.cs",
@@ -713,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "DeleteEventCommand.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Commands\\Command\\DeleteEventCommand.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Commands\\Command\\DeleteEventCommand.cs",
@@ -725,19 +754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "EventsController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\WebAPI\\Controllers\\EventsController.cs",
-              "RelativeDocumentMoniker": "Events Web-Application\\src\\WebAPI\\Controllers\\EventsController.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\WebAPI\\Controllers\\EventsController.cs",
-              "RelativeToolTip": "Events Web-Application\\src\\WebAPI\\Controllers\\EventsController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwB4AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T12:24:06.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "CreateEventCommand.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Commands\\Command\\CreateEventCommand.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Commands\\Command\\CreateEventCommand.cs",
@@ -749,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "UserConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Infastructure\\Persistence\\Configurations\\UserConfiguration.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Infastructure\\Persistence\\Configurations\\UserConfiguration.cs",
@@ -761,7 +778,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "ChangesDTO.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\DTOs\\ChangesDTO.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\DTOs\\ChangesDTO.cs",
@@ -773,7 +790,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "DeleteEventCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Commands\\Handler\\DeleteEventCommandHandler.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Commands\\Handler\\DeleteEventCommandHandler.cs",
@@ -785,7 +802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Domain\\Enums\\Category.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Domain\\Enums\\Category.cs",
@@ -797,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Infastructure\\Persistence\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Infastructure\\Persistence\\Repositories\\UserRepository.cs",
@@ -809,7 +826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "CreateUserValidator.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Validators\\CreateUserValidator.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Validators\\CreateUserValidator.cs",
@@ -821,7 +838,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "CreateEventValidator.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Validators\\CreateEventValidator.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Validators\\CreateEventValidator.cs",
@@ -833,7 +850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "ChangesConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Infastructure\\Persistence\\Configurations\\ChangesConfiguration.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Infastructure\\Persistence\\Configurations\\ChangesConfiguration.cs",
@@ -845,19 +862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\WebAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Events Web-Application\\src\\WebAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\WebAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Events Web-Application\\src\\WebAPI\\Controllers\\UserController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAmwDoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T12:24:38.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "GetChangesQuery.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Queries\\Query\\GetChangesQuery.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Queries\\Query\\GetChangesQuery.cs",
@@ -869,7 +874,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "GetChangesHandler.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Queries\\Handler\\GetChangesHandler.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Queries\\Handler\\GetChangesHandler.cs",
@@ -881,7 +886,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "CancelParticipationUserCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Commands\\Handler\\CancelParticipationUserCommandHandler.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Commands\\Handler\\CancelParticipationUserCommandHandler.cs",
@@ -893,7 +898,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "GetByEventUserQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Queries\\Handler\\GetByEventUserQueryHandler.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Queries\\Handler\\GetByEventUserQueryHandler.cs",
@@ -905,7 +910,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "GetByPlaceEventQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Queries\\Handler\\GetByPlaceEventQueryHandler.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Queries\\Handler\\GetByPlaceEventQueryHandler.cs",
@@ -917,7 +922,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "GetByPlaceEventQuery.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Queries\\Query\\GetByPlaceEventQuery.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Queries\\Query\\GetByPlaceEventQuery.cs",
@@ -929,7 +934,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "GetByCategoryEventQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Queries\\Handler\\GetByCategoryEventQueryHandler.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Queries\\Handler\\GetByCategoryEventQueryHandler.cs",
@@ -941,7 +946,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "GetAllEventQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Queries\\Handler\\GetAllEventQueryHandler.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Queries\\Handler\\GetAllEventQueryHandler.cs",
@@ -953,7 +958,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "RegisterOnEventUserCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Commands\\Handler\\RegisterOnEventUserCommandHandler.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Commands\\Handler\\RegisterOnEventUserCommandHandler.cs",
@@ -965,7 +970,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "CreateEventCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Commands\\Handler\\CreateEventCommandHandler.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Commands\\Handler\\CreateEventCommandHandler.cs",
@@ -977,7 +982,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "ChangesMapper.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Common\\Mapping\\ChangesMapper.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Common\\Mapping\\ChangesMapper.cs",
@@ -989,7 +994,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "EventMapper.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Common\\Mapping\\EventMapper.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Common\\Mapping\\EventMapper.cs",
@@ -1001,7 +1006,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "GetAllEventQuery.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Queries\\Query\\GetAllEventQuery.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Queries\\Query\\GetAllEventQuery.cs",
@@ -1013,7 +1018,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "UpdateEventCommand.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Commands\\Command\\UpdateEventCommand.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Commands\\Command\\UpdateEventCommand.cs",
@@ -1025,7 +1030,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "GetByIdEventQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Queries\\Handler\\GetByIdEventQueryHandler.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Queries\\Handler\\GetByIdEventQueryHandler.cs",
@@ -1037,7 +1042,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "GetByDateEventQuery.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Queries\\Query\\GetByDateEventQuery.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Queries\\Query\\GetByDateEventQuery.cs",
@@ -1049,7 +1054,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "EventDTO.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\DTOs\\EventDTO.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\DTOs\\EventDTO.cs",
@@ -1061,7 +1066,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Domain\\Entities\\User.cs",
@@ -1073,7 +1078,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "ParticipationConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Infastructure\\Persistence\\Configurations\\ParticipationConfiguration.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Infastructure\\Persistence\\Configurations\\ParticipationConfiguration.cs",
@@ -1085,7 +1090,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "AuthTokens.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\WebAPI\\Extensions\\Token\\AuthTokens.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\WebAPI\\Extensions\\Token\\AuthTokens.cs",
@@ -1097,7 +1102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "AppDBContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Tests\\Tests\\AppDBContextFactory.cs",
               "RelativeDocumentMoniker": "Tests\\Tests\\AppDBContextFactory.cs",
@@ -1109,7 +1114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "ParticipationDTO.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\DTOs\\ParticipationDTO.cs",
               "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\DTOs\\ParticipationDTO.cs",
@@ -1118,18 +1123,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T14:18:10.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "AddPhotoEventCommand.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Commands\\Command\\AddPhotoEventCommand.cs",
-              "RelativeDocumentMoniker": "Events Web-Application\\src\\Application\\Events\\Commands\\Command\\AddPhotoEventCommand.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Events Web-Application\\Events Web-Application\\src\\Application\\Events\\Commands\\Command\\AddPhotoEventCommand.cs",
-              "RelativeToolTip": "Events Web-Application\\src\\Application\\Events\\Commands\\Command\\AddPhotoEventCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T14:32:26.892Z"
             },
             {
               "$type": "Document",
@@ -1562,6 +1555,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-03T13:51:20.716Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{797f5b3d-853a-4854-a9f2-c488bac2661b}"
             }
           ]
         }
