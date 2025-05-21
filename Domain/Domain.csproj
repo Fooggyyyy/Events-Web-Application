@@ -4,14 +4,14 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <IsPackable>false</IsPackable>
+    <OutputType>Library</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Abp.ZeroCore.IdentityServer4" Version="8.4.0" />
-    <PackageReference Include="Abp.ZeroCore.IdentityServer4.EntityFrameworkCore" Version="8.4.0" />
-    <PackageReference Include="AutoMapper" Version="14.0.0" />
-    <PackageReference Include="coverlet.collector" Version="6.0.2" />
+    <PackageReference Include="coverlet.collector" Version="6.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Duende.IdentityServer" Version="7.2.2" />
     <PackageReference Include="Duende.IdentityServer.Storage" Version="7.2.2" />
     <PackageReference Include="FluentValidation" Version="11.11.0" />
@@ -19,26 +19,11 @@
     <PackageReference Include="MediatR" Version="12.5.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.4">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.2" />
-    <PackageReference Include="Swashbuckle" Version="5.6.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
-    <PackageReference Include="xunit" Version="2.9.3" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Using Include="Xunit" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Events Web-Application\Events Web-Application.csproj" />
   </ItemGroup>
 
 </Project>

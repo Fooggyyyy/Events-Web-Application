@@ -11,6 +11,7 @@ services:
       - "1433:1433"
     volumes:
       - sql_data:/var/opt/mssql
+      - ./Events Web-Application/DB:/var/opt/mssql/backup
 
   eventsweb-application:
     image: ${DOCKER_REGISTRY-}eventswebapplication
