@@ -12,16 +12,16 @@
 - В SSMS ПКМ по БД и нажимаем "Создать запрос".
 - Пишем:
 ```sql
-RESTORE FILELISTONLY 
-FROM DISK = '...\Events Web-Application\DB\Events_Web_Application.bak' --тут полный путь до .bak файла
+RESTORE FILELISTONLY
+FROM DISK = '/var/opt/mssql/backup/Events_Web_Application.bak'
 ```
 - Запрос выдаст таблицу с 2 значениями .mdf и .idf файлами
 - Опираясь на полученые таблицы пишем второй запрос:
 ```sql
 RESTORE DATABASE EventsAppDb
-FROM DISK = 'C:\Users\user\OneDrive\Рабочий стол\Events Web-Application\Events Web-Application\DB\Events_Web_Application.bak'
-WITH MOVE 'Сюда пишем LoqicalName первой строки' TO 'Сюда пишем PhysicalName первой строки',
-     MOVE 'Сюда пишем LoqicalName второй строки' TO 'Сюда пишем PhysicalName второй строки',
+FROM DISK = '/var/opt/mssql/backup/Events_Web_Application.bak'
+WITH MOVE 'Events_Web_Application' TO '/var/opt/mssql/data/EventsAppDb.mdf',
+     MOVE 'Events_Web_Application_log' TO '/var/opt/mssql/data/EventsAppDb_log.ldf',
      REPLACE;
 ```
 - Готово
