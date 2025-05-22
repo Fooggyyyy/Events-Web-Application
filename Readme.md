@@ -15,8 +15,7 @@
 RESTORE FILELISTONLY
 FROM DISK = '/var/opt/mssql/backup/Events_Web_Application.bak'
 ```
-- Запрос выдаст таблицу с 2 значениями .mdf и .idf файлами
-- Опираясь на полученые таблицы пишем второй запрос:
+- Далее
 ```sql
 RESTORE DATABASE EventsAppDb
 FROM DISK = '/var/opt/mssql/backup/Events_Web_Application.bak'
