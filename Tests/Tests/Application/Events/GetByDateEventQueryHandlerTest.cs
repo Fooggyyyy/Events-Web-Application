@@ -35,7 +35,7 @@ namespace Tests.Tests.Application.Events
             // Arrange
             var repository = new EventRepository(context);
             var handler = new GetByDateEventQueryHandler(_mapper, repository);
-            var query = new GetByDateEventQuery(DateTime.Now.AddDays(60));
+            var query = new GetByDateEventQuery(DateTime.Now.AddDays(60), 1, 10);
             // Act
 
             var result = await handler.Handle(query, CancellationToken.None);

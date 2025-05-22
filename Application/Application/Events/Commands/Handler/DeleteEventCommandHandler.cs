@@ -16,7 +16,7 @@ namespace Events_Web_Application.src.Application.Events.Commands.Handler
 
         public async Task<Unit> Handle(DeleteEventCommand request, CancellationToken cancellationToken)
         {
-            await _eventRepository.DeleteAsync(request.id);
+            await _eventRepository.DeleteAsync(request.id, cancellationToken);
             return Unit.Value;
         }
     }

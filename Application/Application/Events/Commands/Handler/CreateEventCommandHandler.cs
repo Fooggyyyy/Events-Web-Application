@@ -20,7 +20,7 @@ namespace Events_Web_Application.src.Application.Events.Commands.Handler
         public async Task<int> Handle(CreateEventCommand request, CancellationToken cancellationToken)
         {
             var EventEntity = _mapper.Map<Event>(request);
-            await _eventRepository.AddAsync(EventEntity);
+            await _eventRepository.AddAsync(EventEntity, cancellationToken);
             return EventEntity.Id;
 
         }

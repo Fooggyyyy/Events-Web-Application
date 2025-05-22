@@ -19,7 +19,7 @@ namespace Events_Web_Application.src.Application.Events.Queries.Handler
 
         public async Task<ICollection<EventDTO>> Handle(GetByCategoryEventQuery request, CancellationToken cancellationToken)
         {
-            var Events = await eventRepository.GetByCategoryAsync(request.Category);
+            var Events = await eventRepository.GetByCategoryAsync(request.Category, cancellationToken);
 
             var pagedUsers = Events
                 .Skip((request.Page - 1) * request.PageSize)

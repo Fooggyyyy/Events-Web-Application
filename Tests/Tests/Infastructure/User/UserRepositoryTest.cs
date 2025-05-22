@@ -15,7 +15,7 @@ namespace Tests.Tests.Infastructure.User
         {
             var repo = new UserRepository(context);
 
-            var result = await repo.GetByEventAsync(1);
+            var result = await repo.GetByEventAsync(1, CancellationToken.None);
 
             Assert.Equal(2, result.Count); 
         }
@@ -25,7 +25,7 @@ namespace Tests.Tests.Infastructure.User
         {
             var repo = new UserRepository(context);
 
-            var result = await repo.GetByUserIdAsync(1);
+            var result = await repo.GetByIdAsync(1, CancellationToken.None);
 
             Assert.NotNull(result);
             Assert.Equal("John", result.Name);
@@ -36,7 +36,7 @@ namespace Tests.Tests.Infastructure.User
         {
             var repo = new UserRepository(context);
 
-            await repo.RegisterOnEventAsync(2, 1);
+            await repo.RegisterOnEventAsync(2, 1, CancellationToken.None);
 
             var result = context.Participations.FirstOrDefault(p => p.UserId == 1 && p.EventId == 2);
             Assert.NotNull(result);

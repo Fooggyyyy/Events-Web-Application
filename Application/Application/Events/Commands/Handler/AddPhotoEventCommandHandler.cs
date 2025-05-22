@@ -18,7 +18,7 @@ namespace Events_Web_Application.src.Application.Events.Commands.Handler
             
         public async Task<Unit> Handle(AddPhotoEventCommand request, CancellationToken cancellationToken)
         {
-            await _eventRepository.AddPhotoAsync(request.id, request.PhotoPath);
+            await _eventRepository.AddPhotoAsync(request.id, request.PhotoPath, cancellationToken);
             return Unit.Value;
         }
     }

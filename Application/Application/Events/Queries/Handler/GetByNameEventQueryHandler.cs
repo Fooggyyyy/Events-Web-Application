@@ -19,7 +19,7 @@ namespace Events_Web_Application.src.Application.Events.Queries.Handler
 
         public async Task<EventDTO> Handle(GetByNameEventQuery request, CancellationToken cancellationToken)
         {
-            var Event = await repository.GetByNameAsync(request.Name);
+            var Event = await repository.GetByNameAsync(request.Name, cancellationToken);
             return mapper.Map<EventDTO>(Event);
         }
     }

@@ -19,7 +19,7 @@ namespace Events_Web_Application.src.Application.Events.Queries.Handler
 
         public async Task<UserDTO> Handle(GetByIdUserQuery request, CancellationToken cancellationToken)
         {
-            var User = await userRepository.GetByIdAsync(request.UserId);
+            var User = await userRepository.GetByIdAsync(request.UserId, cancellationToken);
             return mapper.Map<UserDTO>(User);
         }
     }

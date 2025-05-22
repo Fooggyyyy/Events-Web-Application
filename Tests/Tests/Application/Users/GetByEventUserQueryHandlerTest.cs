@@ -35,7 +35,7 @@ namespace Tests.Tests.Application.Users
             // Arrange
             var repository = new UserRepository(context);
             var handler = new GetByEventUserQueryHandler(_mapper, repository);
-            var query = new GetByEventUserQuery(1);
+            var query = new GetByEventUserQuery(1, 1, 10);
             // Act
 
             var result = await handler.Handle(query, CancellationToken.None);

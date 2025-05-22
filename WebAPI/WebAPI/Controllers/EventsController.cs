@@ -26,87 +26,85 @@ public class EventsController : ControllerBase
 
     [HttpGet]
     [Authorize(Policy = "AtLeastUser")]
-    public async Task<ActionResult<ICollection<EventDTO>>> GetAll([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
+    public async Task<ActionResult<ICollection<EventDTO>>> GetAll(CancellationToken ct, [FromQuery] int page = 1, [FromQuery] int pageSize = 10)
     {
-        var events = await _mediator.Send(new GetAllEventQuery(page, pageSize));
+        var events = await _mediator.Send(new GetAllEventQuery(page, pageSize), ct);
 
         return Ok(events);
     }
 
     [HttpGet("name")]
     [Authorize(Policy = "AtLeastUser")]
-    public async Task<ActionResult<ICollection<EventDTO>>> GetByName([FromQuery] string name)
+    public async Task<ActionResult<ICollection<EventDTO>>> GetByName(CancellationToken ct, [FromQuery] string name)
     {
-        var events = await _mediator.Send(new GetByNameEventQuery(name));
+        var events = await _mediator.Send(new GetByNameEventQuery(name), ct);
         return Ok(events);
     }
 
 
     [HttpGet("date")]
     [Authorize(Policy = "AtLeastUser")]
-    public async Task<ActionResult<ICollection<EventDTO>>> GetByDate([FromQuery] DateTime date, [FromQuery] int page = 1,
+    public async Task<ActionResult<ICollection<EventDTO>>> GetByDate(CancellationToken ct, [FromQuery] DateTime date, [FromQuery] int page = 1,
     [FromQuery] int pageSize = 10)
     {
-        var events = await _mediator.Send(new GetByDateEventQuery(date, page, pageSize));
+        var events = await _mediator.Send(new GetByDateEventQuery(date, page, pageSize), ct);
         return Ok(events);
     }
 
     [HttpGet("place")]
     [Authorize(Policy = "AtLeastUser")]
-    public async Task<ActionResult<ICollection<EventDTO>>> GetByPlace([FromQuery] string place, [FromQuery] int page = 1,
-    [FromQuery] int pageSize = 10)
+    public async Task<ActionResult<ICollection<EventDTO>>> GetByPlace(CancellationToken ct, [FromQuery] string place, [FromQuery] int page = 1, [FromQuery] int pageSize = 10)
     {
-        var events = await _mediator.Send(new GetByPlaceEventQuery(place, page, pageSize));
+        var events = await _mediator.Send(new GetByPlaceEventQuery(place, page, pageSize), ct);
         return Ok(events);
     }
 
     [HttpGet("category")]
     [Authorize(Policy = "AtLeastUser")]
-    public async Task<ActionResult<ICollection<EventDTO>>> GetByCategory([FromQuery] Category category, [FromQuery] int page = 1, [FromQuery] int pageSize = 10)
+    public async Task<ActionResult<ICollection<EventDTO>>> GetByCategory(CancellationToken ct, [FromQuery] Category category, [FromQuery] int page = 1, [FromQuery] int pageSize = 10)
     {
-        var events = await _mediator.Send(new GetByCategoryEventQuery(category, page, pageSize));
+        var events = await _mediator.Send(new GetByCategoryEventQuery(category, page, pageSize), ct);
         return Ok(events);
     }
 
     [HttpGet("{id}")]
     [Authorize(Policy = "AtLeastUser")]
-    public async Task<ActionResult<EventDTO>> GetById(int id, [FromQuery] int page = 1,
-    [FromQuery] int pageSize = 10)
+    public async Task<ActionResult<EventDTO>> GetById(int id, CancellationToken ct, [FromQuery] int page = 1, [FromQuery] int pageSize = 10)
     {
-        var result = await _mediator.Send(new GetByIdEventQuery(id));
+        var result = await _mediator.Send(new GetByIdEventQuery(id), ct);
         return result == null ? NotFound() : Ok(result);
     }
 
     [HttpPost]
     [Authorize(Policy = "AdminOnly")]
-    public async Task<ActionResult<int>> Create([FromBody] CreateEventCommand command)
+    public async Task<ActionResult<int>> Create(CancellationToken ct, [FromBody] CreateEventCommand command)
     {
-        var id = await _mediator.Send(command);
+        var id = await _mediator.Send(command, ct);
         return CreatedAtAction(nameof(GetById), new { id }, id);
     }
 
     [HttpPut("{id}")]
     [Authorize(Policy = "AdminOnly")]
-    public async Task<IActionResult> Update(int id, [FromBody] UpdateEventCommand command)
+    public async Task<IActionResult> Update(int id, CancellationToken ct, [FromBody] UpdateEventCommand command)
     {
         command.Id = id;
-        await _mediator.Send(command);
+        await _mediator.Send(command, ct);
         return NoContent();
     }
 
     [HttpDelete("{id}")]
     [Authorize(Policy = "AdminOnly")]
-    public async Task<IActionResult> Delete(int id)
+    public async Task<IActionResult> Delete(CancellationToken ct, int id)
     {
-        await _mediator.Send(new DeleteEventCommand(id));
+        await _mediator.Send(new DeleteEventCommand(id), ct);
         return NoContent();
     }
 
     [HttpPost("{id}/photo")]
     [Authorize(Policy = "AdminOnly")]
-    public async Task<IActionResult> AddPhoto(int id, [FromBody] AddPhotoEventCommand command)
+    public async Task<IActionResult> AddPhoto(int id, CancellationToken ct, [FromBody] AddPhotoEventCommand command)
     {
-        await _mediator.Send(command);
+        await _mediator.Send(command, ct);
         return NoContent();
     }
 }

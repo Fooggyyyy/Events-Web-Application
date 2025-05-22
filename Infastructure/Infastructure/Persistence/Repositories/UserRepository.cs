@@ -14,22 +14,22 @@ namespace Events_Web_Application.src.Infastructure.Persistence.Repositories
         {
             this.appDbContext = appDbContext;
         }
-        public async Task<ICollection<User>> GetByEventAsync(int EventId)
+        public async Task<ICollection<User>> GetByEventAsync(int EventId, CancellationToken cancellationToken)
         {
             return await appDbContext.Users.Where(x => x.Participations.Any(e => e.EventId == EventId)).AsNoTracking().ToListAsync();
         }
 
-        public async Task<ICollection<Changes>> GetChanges()
+        public async Task<ICollection<Changes>> GetChanges(CancellationToken cancellationToken)
         {
             return await appDbContext.Changes.AsNoTracking().ToListAsync();
         }
 
-        public async Task<User> GetByIdAsync(int UserId)
+        public async Task<User> GetByIdAsync(int UserId, CancellationToken cancellationToken)
         {
             return await appDbContext.Users.Where(x => x.Id == UserId).AsNoTracking().FirstOrDefaultAsync();
         }
 
-        public async Task RegisterOnEventAsync(int EventId, int UserId)
+        public async Task RegisterOnEventAsync(int EventId, int UserId, CancellationToken cancellationToken)
         {
             var Event = await appDbContext.Events.FindAsync(EventId);
 
@@ -40,7 +40,7 @@ namespace Events_Web_Application.src.Infastructure.Persistence.Repositories
             await appDbContext.Participations.AddAsync(participation);
             await appDbContext.SaveChangesAsync();
         }
-        public async Task CancelParticipationAsync(int EventId, int UserId)
+        public async Task CancelParticipationAsync(int EventId, int UserId, CancellationToken cancellationToken)
         {
             //MemoryDB не поддерживает Execute, поэтому на этот тест дает ошибку 
             appDbContext.Participations.Where(x => x.UserId == UserId && x.EventId == EventId).ExecuteDelete();

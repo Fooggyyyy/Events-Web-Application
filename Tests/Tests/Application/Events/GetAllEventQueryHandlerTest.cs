@@ -36,7 +36,7 @@ namespace Tests.Tests.Application.Events
             // Arrange
             var repository = new EventRepository(context);
             var handler = new GetAllEventQueryHandler(repository, _mapper);
-            var query = new GetAllEventQuery();
+            var query = new GetAllEventQuery(1, 10);
 
             // Act
             var result = await handler.Handle(query, CancellationToken.None);

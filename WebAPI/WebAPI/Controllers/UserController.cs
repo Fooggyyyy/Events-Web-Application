@@ -22,36 +22,36 @@ public class UserController : ControllerBase
 
     [HttpGet("event/{eventId}")]
     [Authorize(Policy = "AdminOnly")]
-    public async Task<ActionResult<ICollection<UserDTO>>> GetUsersByEvent(int eventId, [FromQuery] int page = 1, [FromQuery] int pageSize = 10)
+    public async Task<ActionResult<ICollection<UserDTO>>> GetUsersByEvent(int eventId, CancellationToken ct, [FromQuery] int page = 1, [FromQuery] int pageSize = 10)
     {
         var query = new GetByEventUserQuery(eventId, page, pageSize);
-        var users = await _mediator.Send(query);
+        var users = await _mediator.Send(query, ct);
         return Ok(users);
     }
 
 
     [HttpGet("{id}")]
     [Authorize(Policy = "AdminOnly")]
-    public async Task<ActionResult<UserDTO>> GetById(int id)
+    public async Task<ActionResult<UserDTO>> GetById(int id, CancellationToken ct)
     {
-        var user = await _mediator.Send(new GetByIdUserQuery(id));
+        var user = await _mediator.Send(new GetByIdUserQuery(id), ct);
         return user == null ? NotFound() : Ok(user);
     }
 
     [HttpGet("Changes")]
     [Authorize(Policy = "AtLeastUser")]
-    public async Task<ActionResult<ICollection<ChangesDTO>>> GetChanges()
+    public async Task<ActionResult<ICollection<ChangesDTO>>> GetChanges(CancellationToken ct)
     {
-        var changes = await _mediator.Send(new GetChangesQuery());
+        var changes = await _mediator.Send(new GetChangesQuery(), ct);
         return Ok(changes);
     }
 
 
     [HttpPost("cancel")]
     [Authorize(Policy = "AtLeastUser")]
-    public async Task<IActionResult> Cancel([FromBody] CancelParticipationUserCommand command)
+    public async Task<IActionResult> Cancel(CancellationToken ct, [FromBody] CancelParticipationUserCommand command)
     {
-        await _mediator.Send(command);
+        await _mediator.Send(command, ct);
         return Ok();
     }
 

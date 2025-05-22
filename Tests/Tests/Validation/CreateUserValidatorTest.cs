@@ -1,4 +1,5 @@
-﻿using Events_Web_Application.src.Application.Events.Validators;
+﻿using Events_Web_Application.src.Application.Events.DTOs;
+using Events_Web_Application.src.Application.Events.Validators;
 using Events_Web_Application.src.Domain.Entities;
 using FluentValidation.TestHelper;
 using System;
@@ -19,17 +20,9 @@ namespace Tests.Tests.Validator
         }
 
         [Fact]
-        public void Should_Have_Error_When_Id_Is_Empty()
-        {
-            var model = new User { Id = 0 };
-            var result = _validator.TestValidate(model);
-            result.ShouldHaveValidationErrorFor(u => u.Id);
-        }
-
-        [Fact]
         public void Should_Have_Error_When_Name_Is_Empty()
         {
-            var model = new User { Name = "" };
+            var model = new UserDTO { Name = "" };
             var result = _validator.TestValidate(model);
             result.ShouldHaveValidationErrorFor(u => u.Name);
         }
@@ -37,7 +30,7 @@ namespace Tests.Tests.Validator
         [Fact]
         public void Should_Have_Error_When_Name_Too_Long()
         {
-            var model = new User { Name = new string('A', 51) };
+            var model = new UserDTO { Name = new string('A', 51) };
             var result = _validator.TestValidate(model);
             result.ShouldHaveValidationErrorFor(u => u.Name);
         }
@@ -45,7 +38,7 @@ namespace Tests.Tests.Validator
         [Fact]
         public void Should_Have_Error_When_Surname_Is_Empty()
         {
-            var model = new User { Surname = "" };
+            var model = new UserDTO { Surname = "" };
             var result = _validator.TestValidate(model);
             result.ShouldHaveValidationErrorFor(u => u.Surname);
         }
@@ -53,7 +46,7 @@ namespace Tests.Tests.Validator
         [Fact]
         public void Should_Have_Error_When_Surname_Too_Long()
         {
-            var model = new User { Surname = new string('S', 51) };
+            var model = new UserDTO { Surname = new string('S', 51) };
             var result = _validator.TestValidate(model);
             result.ShouldHaveValidationErrorFor(u => u.Surname);
         }
@@ -61,7 +54,7 @@ namespace Tests.Tests.Validator
         [Fact]
         public void Should_Have_Error_When_Birthday_Is_In_Future()
         {
-            var model = new User { BirthdayDate = DateOnly.FromDateTime(DateTime.UtcNow.AddDays(1)) };
+            var model = new UserDTO { BirthdayDate = DateOnly.FromDateTime(DateTime.UtcNow.AddDays(1)) };
             var result = _validator.TestValidate(model);
             result.ShouldHaveValidationErrorFor(u => u.BirthdayDate);
         }
@@ -69,7 +62,7 @@ namespace Tests.Tests.Validator
         [Fact]
         public void Should_Have_Error_When_Birthday_Too_Old()
         {
-            var model = new User { BirthdayDate = DateOnly.FromDateTime(DateTime.UtcNow.AddYears(-130)) };
+            var model = new UserDTO { BirthdayDate = DateOnly.FromDateTime(DateTime.UtcNow.AddYears(-130)) };
             var result = _validator.TestValidate(model);
             result.ShouldHaveValidationErrorFor(u => u.BirthdayDate);
         }
@@ -77,7 +70,7 @@ namespace Tests.Tests.Validator
         [Fact]
         public void Should_Have_Error_When_Email_Is_Empty()
         {
-            var model = new User { Email = "" };
+            var model = new UserDTO { Email = "" };
             var result = _validator.TestValidate(model);
             result.ShouldHaveValidationErrorFor(u => u.Email);
         }
@@ -85,7 +78,7 @@ namespace Tests.Tests.Validator
         [Fact]
         public void Should_Have_Error_When_Email_Invalid()
         {
-            var model = new User { Email = "invalid-email" };
+            var model = new UserDTO { Email = "invalid-email" };
             var result = _validator.TestValidate(model);
             result.ShouldHaveValidationErrorFor(u => u.Email);
         }
@@ -93,7 +86,7 @@ namespace Tests.Tests.Validator
         [Fact]
         public void Should_Not_Have_Errors_For_Valid_User()
         {
-            var model = new User
+            var model = new UserDTO
             {
                 Id = 1,
                 Name = "John",

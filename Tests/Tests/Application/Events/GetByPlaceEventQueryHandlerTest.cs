@@ -37,7 +37,7 @@ namespace Tests.Tests.Application.Events
             // Arrange
             var repository = new EventRepository(context);
             var handler = new GetByPlaceEventQueryHandler(_mapper, repository);
-            var query = new GetByPlaceEventQuery("Design Studio");
+            var query = new GetByPlaceEventQuery("Design Studio", 1, 10);
             // Act
 
             var result = await handler.Handle(query, CancellationToken.None);

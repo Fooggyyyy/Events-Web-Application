@@ -15,7 +15,7 @@ namespace Events_Web_Application.src.Application.Events.Commands.Handler
 
         public async Task<Unit> Handle(RegisterOnEventUserCommand request, CancellationToken cancellationToken)
         {
-            await _userRepository.RegisterOnEventAsync(request.EventId, request.UserId);
+            await _userRepository.RegisterOnEventAsync(request.EventId, request.UserId, cancellationToken);
             return Unit.Value;
         }
     }

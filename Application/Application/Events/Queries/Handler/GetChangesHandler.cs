@@ -31,7 +31,7 @@ namespace Events_Web_Application.src.Application.Events.Queries.Handler
             List<int> EventsWhereCurrentUserRegister = _appDbContext.Participations
                 .Where(x =>  x.UserId == currentUserId)
                 .Select(x => x.EventId).ToList();
-            var Changes = await _userRepository.GetChanges();
+            var Changes = await _userRepository.GetChanges(cancellationToken);
             var ChangesReturn = Changes.Where(x => EventsWhereCurrentUserRegister.Contains(x.EventId));
 
             return _mapper.Map<ICollection<ChangesDTO>>(ChangesReturn);

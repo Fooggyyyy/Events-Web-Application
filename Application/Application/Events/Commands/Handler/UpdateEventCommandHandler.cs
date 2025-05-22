@@ -20,7 +20,7 @@ namespace Events_Web_Application.src.Application.Events.Commands.Handler
 
         public async Task<int> Handle(UpdateEventCommand request, CancellationToken cancellationToken)
         {
-            var existingEvent = await _eventRepository.GetByIdAsync(request.Id);
+            var existingEvent = await _eventRepository.GetByIdAsync(request.Id, cancellationToken);
 
             string changes = "";
 
@@ -45,7 +45,7 @@ namespace Events_Web_Application.src.Application.Events.Commands.Handler
             existingEvent.MaxUser = request.MaxUser;
             existingEvent.PhotoPath = request.PhotoPath;
 
-            await _eventRepository.UpdateAsync(existingEvent, changes);
+            await _eventRepository.UpdateAsync(existingEvent, changes, cancellationToken);
 
             return existingEvent.Id;
         }

@@ -20,7 +20,7 @@ namespace Events_Web_Application.src.Application.Events.Queries.Handler
 
         public async Task<ICollection<UserDTO>> Handle(GetByEventUserQuery request, CancellationToken cancellationToken)
         {
-            var users = await _userRepository.GetByEventAsync(request.EventId);
+            var users = await _userRepository.GetByEventAsync(request.EventId, cancellationToken);
 
                 var pagedUsers = users
             .Skip((request.Page - 1) * request.PageSize)

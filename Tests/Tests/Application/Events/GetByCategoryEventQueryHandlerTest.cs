@@ -35,7 +35,7 @@ namespace Tests.Tests.Application.Events
             // Arrange
             var repository = new EventRepository(context);
             var handler = new GetByCategoryEventQueryHandler(_mapper, repository);
-            var query = new GetByCategoryEventQuery(Category.Conferences);
+            var query = new GetByCategoryEventQuery(Category.Conferences, 1, 10);
             // Act
 
             var result = await handler.Handle(query, CancellationToken.None);

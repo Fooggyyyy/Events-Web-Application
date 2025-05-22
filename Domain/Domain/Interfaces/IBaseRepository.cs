@@ -10,6 +10,6 @@ namespace Domain.Domain.Interfaces
     //Это единственный общий метод между User и Event
     public interface IBaseRepository<T> where T : class
     {
-        Task<T> GetByIdAsync(int id);
+        Task<T> GetByIdAsync(int id, CancellationToken cancellationToken);
     }
 }

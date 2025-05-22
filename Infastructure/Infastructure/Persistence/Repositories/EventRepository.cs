@@ -21,43 +21,43 @@ namespace Events_Web_Application.src.Infastructure.Persistence.Repositories
             this.appDbContext = appDbContext;
             this.memoryCache = memoryCache;
         }
-        public async Task<ICollection<Event>> GetAllAsync()
+        public async Task<ICollection<Event>> GetAllAsync(CancellationToken cancellationToken)
         {
             return await appDbContext.Events.AsNoTracking().ToListAsync();
         }
-        public async Task<ICollection<Event>> GetByDateAsync(DateTime Date)
+        public async Task<ICollection<Event>> GetByDateAsync(DateTime Date, CancellationToken cancellationToken)
         {
             return await appDbContext.Events.Where(x => x.Date.Year == Date.Year && x.Date.Month == Date.Month && x.Date.Day == Date.Day).AsNoTracking().ToListAsync();
         }
 
-        public async Task<ICollection<Event>> GetByPlaceAsync(string Place)
+        public async Task<ICollection<Event>> GetByPlaceAsync(string Place, CancellationToken cancellationToken)
         {
             return await appDbContext.Events.Where(x => x.Place == Place).AsNoTracking().ToListAsync();
         }
 
-        public async Task<ICollection<Event>> GetByCategoryAsync(Category Category)
+        public async Task<ICollection<Event>> GetByCategoryAsync(Category Category, CancellationToken cancellationToken)
         {
             return await appDbContext.Events.Where(x => x.Category == Category).AsNoTracking().ToListAsync();
         }
 
-        public async Task<Event> GetByIdAsync(int id)
+        public async Task<Event> GetByIdAsync(int id, CancellationToken cancellationToken)
         {
             return await appDbContext.Events.Where(x => x.Id == id).AsNoTracking().FirstOrDefaultAsync();
         }
 
-        public async Task<Event> GetByNameAsync(string Name)
+        public async Task<Event> GetByNameAsync(string Name, CancellationToken cancellationToken)
         {
             return await appDbContext.Events.Where(x => x.Name == Name).AsNoTracking().FirstOrDefaultAsync();
         }
 
-        public async Task AddAsync(Event Event)
+        public async Task AddAsync(Event Event, CancellationToken cancellationToken)
         {
             await appDbContext.Events.AddAsync(Event); 
             await appDbContext.SaveChangesAsync();
         }
 
         //Вот сюда Changes
-        public async Task UpdateAsync(Event @event, string changesText)
+        public async Task UpdateAsync(Event @event, string changesText, CancellationToken cancellationToken)
         {
             appDbContext.Changes
                 .Where(x => x.EventId == @event.Id)
@@ -68,7 +68,7 @@ namespace Events_Web_Application.src.Infastructure.Persistence.Repositories
             await appDbContext.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAsync(int id, CancellationToken cancellationToken)
         {
             await appDbContext.Events
                 .Where(x => x.Id == id)
@@ -77,7 +77,7 @@ namespace Events_Web_Application.src.Infastructure.Persistence.Repositories
             await appDbContext.SaveChangesAsync();
         }
 
-        public async Task AddPhotoAsync(int id, string PhotoPath)
+        public async Task AddPhotoAsync(int id, string PhotoPath, CancellationToken cancellationToken)
         {
             memoryCache.TryGetValue(id, out PhotoPath);
             var UpdateEvent = await appDbContext.Events.FindAsync(id);
