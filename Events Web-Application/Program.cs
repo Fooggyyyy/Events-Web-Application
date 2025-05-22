@@ -8,7 +8,6 @@ using Events_Web_Application.src.Domain.interfaces;
 using Events_Web_Application.src.Infastructure.Persistence;
 using Events_Web_Application.src.Infastructure.Persistence.Repositories;
 using Events_Web_Application.src.WebAPI.Controllers;
-using Events_Web_Application.src.WebAPI.Extensions;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using MediatR;
@@ -211,4 +210,4 @@ app.Use(async (context, next) =>
 });
 
 app.Run();
-    
+        

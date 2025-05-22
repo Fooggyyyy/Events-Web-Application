@@ -7,9 +7,15 @@ namespace Events_Web_Application.src.Application.Events.Queries.Query
     {
         public DateTime Date;
 
-        public GetByDateEventQuery(DateTime date)
+        public int Page { get; set; }
+
+        public int PageSize { get; set; }
+
+        public GetByDateEventQuery(DateTime date, int page, int pageSize)
         {
             Date = date;
+            Page = page;
+            PageSize = pageSize;
         }
     }
 }

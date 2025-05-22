@@ -20,7 +20,13 @@ namespace Events_Web_Application.src.Application.Events.Queries.Handler
         public async Task<ICollection<EventDTO>> Handle(GetByPlaceEventQuery request, CancellationToken cancellationToken)
         {
             var Events =  await _eventRepository.GetByPlaceAsync(request.Place);
-            return _mapper.Map<ICollection<EventDTO>>(Events);
+
+            var pagedUsers = Events
+    .Skip((request.Page - 1) * request.PageSize)
+    .Take(request.PageSize)
+    .ToList();
+
+            return _mapper.Map<ICollection<EventDTO>>(pagedUsers);
         }
     }
 }

@@ -22,25 +22,13 @@ public class UserController : ControllerBase
 
     [HttpGet("event/{eventId}")]
     [Authorize(Policy = "AdminOnly")]
-    public async Task<ActionResult<ICollection<UserDTO>>> GetUsersByEvent(int eventId, [FromQuery] int page = 1,
-    [FromQuery] int pageSize = 10)
+    public async Task<ActionResult<ICollection<UserDTO>>> GetUsersByEvent(int eventId, [FromQuery] int page = 1, [FromQuery] int pageSize = 10)
     {
-        var users = await _mediator.Send(new GetByEventUserQuery(eventId));
-
-        var pagedUser = users
-    .Skip((page - 1) * pageSize)
-    .Take(pageSize)
-    .ToList();
-
-        return Ok(new PagedResponse<UserDTO>
-        {
-            Items = pagedUser,
-            Page = page,
-            PageSize = pageSize,
-            TotalCount = users.Count,
-
-        });
+        var query = new GetByEventUserQuery(eventId, page, pageSize);
+        var users = await _mediator.Send(query);
+        return Ok(users);
     }
+
 
     [HttpGet("{id}")]
     [Authorize(Policy = "AdminOnly")]

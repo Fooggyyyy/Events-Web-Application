@@ -8,6 +8,7 @@ using Events_Web_Application.src.Application.Events.Commands.Command;
 using Events_Web_Application.src.Application.Events.Queries.Query;
 using Events_Web_Application.src.WebAPI.Pagination;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.Extensions.Logging;
 
 namespace Events_Web_Application.API.Controllers;
 
@@ -25,24 +26,11 @@ public class EventsController : ControllerBase
 
     [HttpGet]
     [Authorize(Policy = "AtLeastUser")]
-    public async Task<ActionResult<ICollection<EventDTO>>> GetAll([FromQuery] int page = 1,
-    [FromQuery] int pageSize = 10)
+    public async Task<ActionResult<ICollection<EventDTO>>> GetAll([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
     {
-        var events = await _mediator.Send(new GetAllEventQuery());
+        var events = await _mediator.Send(new GetAllEventQuery(page, pageSize));
 
-        var pagedEvents = events
-    .Skip((page - 1) * pageSize)
-    .Take(pageSize)
-    .ToList();
-
-        return Ok(new PagedResponse<EventDTO>
-        {
-            Items = pagedEvents,
-            Page = page,
-            PageSize = pageSize,
-            TotalCount = events.Count,
-
-        });
+        return Ok(events);
     }
 
     [HttpGet("name")]
@@ -59,19 +47,8 @@ public class EventsController : ControllerBase
     public async Task<ActionResult<ICollection<EventDTO>>> GetByDate([FromQuery] DateTime date, [FromQuery] int page = 1,
     [FromQuery] int pageSize = 10)
     {
-        var events = await _mediator.Send(new GetByDateEventQuery(date));
-        var pagedEvents = events
-    .Skip((page - 1) * pageSize)
-    .Take(pageSize)
-    .ToList();
-
-        return Ok(new PagedResponse<EventDTO>
-        {
-            Items = pagedEvents,
-            Page = page,
-            PageSize = pageSize,
-            TotalCount = events.Count
-        });
+        var events = await _mediator.Send(new GetByDateEventQuery(date, page, pageSize));
+        return Ok(events);
     }
 
     [HttpGet("place")]
@@ -79,38 +56,16 @@ public class EventsController : ControllerBase
     public async Task<ActionResult<ICollection<EventDTO>>> GetByPlace([FromQuery] string place, [FromQuery] int page = 1,
     [FromQuery] int pageSize = 10)
     {
-        var events = await _mediator.Send(new GetByPlaceEventQuery(place));
-        var pagedEvents = events
-    .Skip((page - 1) * pageSize)
-    .Take(pageSize)
-    .ToList();
-
-        return Ok(new PagedResponse<EventDTO>
-        {
-            Items = pagedEvents,
-            Page = page,
-            PageSize = pageSize,
-            TotalCount = events.Count
-        });
+        var events = await _mediator.Send(new GetByPlaceEventQuery(place, page, pageSize));
+        return Ok(events);
     }
 
     [HttpGet("category")]
     [Authorize(Policy = "AtLeastUser")]
     public async Task<ActionResult<ICollection<EventDTO>>> GetByCategory([FromQuery] Category category, [FromQuery] int page = 1, [FromQuery] int pageSize = 10)
     {
-        var events = await _mediator.Send(new GetByCategoryEventQuery(category));
-        var pagedEvents = events
-    .Skip((page - 1) * pageSize)
-    .Take(pageSize)
-    .ToList();
-
-        return Ok(new PagedResponse<EventDTO>
-        {
-            Items = pagedEvents,
-            Page = page,
-            PageSize = pageSize,
-            TotalCount = events.Count
-        });
+        var events = await _mediator.Send(new GetByCategoryEventQuery(category, page, pageSize));
+        return Ok(events);
     }
 
     [HttpGet("{id}")]

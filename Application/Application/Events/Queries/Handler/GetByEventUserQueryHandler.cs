@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Events_Web_Application.src.Application.Events.DTOs;
 using Events_Web_Application.src.Application.Events.Queries.Query;
+using Events_Web_Application.src.Domain.Entities;
 using Events_Web_Application.src.Domain.interfaces;
 using MediatR;
 
@@ -19,8 +20,14 @@ namespace Events_Web_Application.src.Application.Events.Queries.Handler
 
         public async Task<ICollection<UserDTO>> Handle(GetByEventUserQuery request, CancellationToken cancellationToken)
         {
-            var user = await _userRepository.GetByEventAsync(request.EventId);
-            return _mapper.Map<ICollection<UserDTO>>(user);
+            var users = await _userRepository.GetByEventAsync(request.EventId);
+
+                var pagedUsers = users
+            .Skip((request.Page - 1) * request.PageSize)
+            .Take(request.PageSize)
+            .ToList();
+
+            return _mapper.Map<ICollection<UserDTO>>(pagedUsers);
         }
     }
 }

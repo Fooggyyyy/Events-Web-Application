@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Events_Web_Application.src.Application.Events.DTOs;
 using Events_Web_Application.src.Application.Events.Queries.Query;
+using Events_Web_Application.src.Domain.Entities;
 using Events_Web_Application.src.Domain.interfaces;
 using MediatR;
 using System.Text.Json;
@@ -22,9 +23,13 @@ namespace Events_Web_Application.src.Application.Events.Queries.Handler
         {
             var events = await _eventRepository.GetAllAsync();
 
-            var result = _mapper.Map<ICollection<EventDTO>>(events);
+            var pagedUsers = events
+                .Skip((request.Page - 1) * request.PageSize)
+                .Take(request.PageSize)
+                .ToList();
 
-            return result;
+            return _mapper.Map<ICollection<EventDTO>>(pagedUsers);
+
         }
     }
 }

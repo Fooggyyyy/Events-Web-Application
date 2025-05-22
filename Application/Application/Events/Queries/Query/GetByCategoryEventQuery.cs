@@ -8,9 +8,15 @@ namespace Events_Web_Application.src.Application.Events.Queries.Query
     {
         public Category Category;
 
-        public GetByCategoryEventQuery(Category category)
+        public int Page { get; set; }
+
+        public int PageSize { get; set; }
+
+        public GetByCategoryEventQuery(Category category, int page, int pageSize)
         {
             Category = category;
+            Page = page;
+            PageSize = pageSize;
         }
     }
 }
